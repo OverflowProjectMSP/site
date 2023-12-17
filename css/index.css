@@ -7,12 +7,12 @@ html{
 
 }
 main{
-    background-image: url(background.png);
     border-radius: 8px;
     margin: 10px
 
 }
 .profile{
+    background-image: url(background.png);
     display: flex;
     justify-content: center;
     padding: 10px;
