@@ -133,59 +133,9 @@ p .u{
 }
 .right p{
     margin: 0;
-    text-align: center;
-    color: #AEB8BC;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-}
-
-.light{
-    color:#488D57
-}
-.middle{
-    color: #D8A326;
-}
-.hard{
-      color: #D9382E;
-}
-
-.top-1{
-    display: flex;
-    gap: 20px;
-    margin-bottom:10px ;
-   
-}
-.top-1 p{
-    margin: 0;
-}
-.t{
-    vertical-align: middle;
-    width: 10px;
-    height: 10px;
-}
-
-.mid-1{
-    font-size: 28px;
-}
-.mid-1 p{
-    margin: 0;
-}
-
-.bottom-1{
-    display: flex;
-    font-size: 15px;
-    color: #AEB8BC;
     
 }
-.el{
-    border-right: 1px solid #AEB8BC;
-    margin-right: 7px;
-    padding: 4px;
-}
-.el-d{
-    border-right: none;
-    margin-right: 7px;
-    padding: 4px;
-}
+
+
+
+
