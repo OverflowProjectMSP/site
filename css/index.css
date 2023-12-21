@@ -93,7 +93,7 @@ p .u{
 }
 .head-1{
     border-bottom: 1px solid #000000;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
     height: 30px;
     display: flex;
     justify-content: space-between;
