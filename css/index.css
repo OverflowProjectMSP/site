@@ -138,16 +138,16 @@ p .u{
     border-radius: 15px;
     margin-bottom: 10px;
 }
-/* общее расположение элементов */
-.left{
-    justify-content: left;
-}
-.right{
-    /* надо решить вопрос с централизацией данного элемента */
-    margin-top: 18px;
-    justify-content: right;
-}
 
+/* общее расположение элементов */
+.right{
+    display: flex;
+    align-items: center;
+}
+.right-in{
+    display: flexbox;
+
+}
 .right p{
     margin: 0;
     margin: 0;
