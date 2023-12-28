@@ -55,8 +55,8 @@ header {
 }
 .navbar-nav {
     display: flex;
-    gap: 30px;
-    margin-left: 50px;
+    gap: 50px;
+    margin-left: 75px;
     margin-bottom: 1px;
 }
 .collapse {
