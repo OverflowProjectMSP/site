@@ -138,6 +138,7 @@ p .u{
 }
 
 /* общее расположение элементов */
+
 .right{
     display: flex;
     align-items: center;
