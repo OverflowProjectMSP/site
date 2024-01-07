@@ -101,7 +101,7 @@ p .u{
     background-color: white;
     border-radius: 8px;
     padding: 10px;
-    margin: 0 10%;
+    margin: 0 20%;
 }
 /* До линии */
 .head-1{
@@ -125,6 +125,7 @@ p .u{
 /* после линии */
 .imp-1{
     padding: 10px;
+    padding-top: 15px;
     border-top: 1px solid #000000;
 }
 /* виджет с вопросами */
@@ -134,7 +135,7 @@ p .u{
     display: flex;
     justify-content: space-between;
     border-radius: 15px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 /* общее расположение элементов */
@@ -202,6 +203,15 @@ p .u{
 .el-d{
     border-right: none;
     padding: 7px;
+}
+
+div.vid {
+    transition: all 0.5s;
+}
+  
+div.vid:hover {
+    transform: translateY(-10px);
+    box-shadow: 10px 5px 5px rgb(0, 0, 0, 0.5);
 }
 
 
