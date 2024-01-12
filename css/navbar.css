@@ -89,6 +89,14 @@ li {
    border-radius: 15px;
 }
 
+.nav-link {
+    color: white;
+}
+.nav-link:hover {
+    color: black;
+}
+
+
     @media (max-width:650px) {
         .navbar-nav ul{
             gap: 0px;
