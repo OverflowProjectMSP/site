@@ -217,3 +217,24 @@ div.vid:hover {
 
 
 
+/* Адаптивка */
+@media(max-width: 1200px){
+    .nikname{
+        font-size: 30px;
+    }
+    .num{
+        font-size: 26px;
+    }
+    .info{
+        font-size: 26px;
+    }
+    .about p{
+        font-size: 22px;
+    }
+    .vse{
+        font-size: 20px;
+    }
+    .q{
+        font-size: 20px;
+    }
+}
