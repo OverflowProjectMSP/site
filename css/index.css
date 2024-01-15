@@ -277,3 +277,75 @@ div.vid:hover {
     }
     
 }
+
+@media(max-width: 576px){
+    .nikname{
+        font-size: var(--size-26);
+    }
+    .num{
+        font-size: var(--size-22);
+    }
+    .info{
+        font-size: var(--size-22);
+    }
+    .about p{
+        font-size: var(--size-18);
+    }
+    .vse{
+        font-size: var(--size-18);
+    }
+    .q{
+        font-size: var(--size-18);
+    }
+    .quest{
+        margin: 0 15%;
+    }
+    .mid-1 p{
+        font-size: var(--size-20);
+    }
+    .bottom-1{
+        font-size: 13px;
+    }
+    .right p{
+        font-size: var(--size-18);
+    }
+    .imp-1{
+        padding-top: 13px;
+    }
+}
+
+@media(max-width: 768px){
+    .nikname{
+        font-size: 28px;
+    }
+    .num{
+        font-size: var(--size-22);
+    }
+    .info{
+        font-size: var(--size-22);
+    }
+    .about p{
+        font-size: var(--size-18);
+    }
+    .vse{
+        font-size: var(--size-18);
+    }
+    .q{
+        font-size: var(--size-18);
+    }
+    .quest{
+        margin: 0 15%;
+    }
+    .mid-1 p{
+        font-size: var(--size-20);
+    }
+    .bottom-1{
+        font-size: 13px;
+    }
+    .right p{
+        font-size: var(--size-18);
+    }
+    .imp-1{
+        padding-top: 13px;
+    }
+}
