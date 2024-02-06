@@ -2,7 +2,12 @@
 
 /* общее */
 
-
+:root{
+    --size-20: 20px;
+    --size-26: 26px;
+    --size-22: 22px;
+    --size-18: 18px;
+}
 html{
     margin: 0;
     background-color: #EEF1F4;
@@ -13,7 +18,10 @@ main{
 body{
     font-family: Rubik !important;
 }
-
+/*популярные классы */
+.t-alig-c{
+    text-align: center;
+}
 
 /* профиль с картинкой */
 .profile{
@@ -40,14 +48,12 @@ body{
     width: 150px;
     border-radius: 100%;
     background-color: aqua; 
-    text-align: center;
 }
 .nikname{
     color: #000;
     font-size: 38px;
     font-style: normal;
     font-weight: 400;
-    text-align: center;
 }
 
 
@@ -55,7 +61,6 @@ body{
 .table{
     display: flex;
     justify-content: center;
-    text-align: center;
 }
 .cell{
     padding: 25px;
@@ -88,7 +93,7 @@ body{
 .about img{
     width: 28px;
     height: 18px;
-    vertical-align:middle;
+    vertical-align: middle;
     margin-right: 4px;
 }
 p .u{
@@ -150,7 +155,6 @@ p .u{
 .right p{
     margin: 0;
     margin: 0;
-    text-align: center;
     color: #AEB8BC;
     font-size: 20px;
     font-style: normal;
@@ -204,7 +208,15 @@ p .u{
     border-right: none;
     padding: 7px;
 }
+.-d {
+    border-right: none;
+}
+.el p{
+    margin: 0;
+}
 
+
+/* анимация */
 div.vid {
     transition: all 0.5s;
 }
@@ -217,3 +229,123 @@ div.vid:hover {
 
 
 
+/* Адаптивка */
+@media(max-width: 1200px){
+    .nikname{
+        font-size: 30px;
+    }
+    .num{
+        font-size: var(--size-26);
+    }
+    .info{
+        font-size: var(--size-26);
+    }
+    .about p{
+        font-size: var(--size-22);
+    }
+    .vse{
+        font-size: var(--size-20);
+    }
+    .q{
+        font-size: var(--size-20);
+    }
+}
+@media(max-width: 992px){
+    .nikname{
+        font-size: 28px;
+    }
+    .num{
+        font-size: var(--size-22);
+    }
+    .info{
+        font-size: var(--size-22);
+    }
+    .about p{
+        font-size: var(--size-18);
+    }
+    .vse{
+        font-size: var(--size-18);
+    }
+    .q{
+        font-size: var(--size-18);
+    }
+    .quest{
+        margin: 0 15%;
+    }
+    .mid-1 p{
+        font-size: 24px;
+    }
+    
+}
+
+@media(max-width: 576px){
+    .nikname{
+        font-size: var(--size-26);
+    }
+    .num{
+        font-size: var(--size-22);
+    }
+    .info{
+        font-size: var(--size-22);
+    }
+    .about p{
+        font-size: var(--size-18);
+    }
+    .vse{
+        font-size: var(--size-18);
+    }
+    .q{
+        font-size: var(--size-18);
+    }
+    .quest{
+        margin: 0 15%;
+    }
+    .mid-1 p{
+        font-size: var(--size-20);
+    }
+    .bottom-1{
+        font-size: 13px;
+    }
+    .right p{
+        font-size: var(--size-18);
+    }
+    .imp-1{
+        padding-top: 13px;
+    }
+}
+
+@media(max-width: 768px){
+    .nikname{
+        font-size: 28px;
+    }
+    .num{
+        font-size: var(--size-22);
+    }
+    .info{
+        font-size: var(--size-22);
+    }
+    .about p{
+        font-size: var(--size-18);
+    }
+    .vse{
+        font-size: var(--size-18);
+    }
+    .q{
+        font-size: var(--size-18);
+    }
+    .quest{
+        margin: 0 15%;
+    }
+    .mid-1 p{
+        font-size: var(--size-20);
+    }
+    .bottom-1{
+        font-size: 13px;
+    }
+    .right p{
+        font-size: var(--size-18);
+    }
+    .imp-1{
+        padding-top: 13px;
+    }
+}
