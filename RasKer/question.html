@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"
+        defer></script>
+    <link href="css/user.css" rel="stylesheet">
+    <link href="css/navbar.css" rel="stylesheet">
+    <title>Over</title>
+</head>
+
+<body>
+    <header>
+            <nav class="navbar navbar-expand-lg  d-flex align-items-center rounded-0">
+              <div class="container-fluid ">
+                <a class="navbar-brand" href="#"><div class="logo-container mt-1"><img src="assets/apple-touch-icon@2.png" alt="" class="logo"></div></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div class="container-contant"></div>
+                    <h4 class="nav-item mr-0 ml-0">
+                      <a class="nav-link mt-2" aria-current="page" href="#">StackOverflow</a>
+                    </h4>
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 mb-2">
+                      <li class="nav-item mt-1">
+                        <a class="nav-link disabled text-white" href="#">Форум</a>
+                      </li>
+                      <li class="nav-item dropdown mt-1">
+                        <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Статьи
+                        </a>
+                        <ul class="dropdown-menu text-white">
+                          <li><a class="dropdown-item text-black" href="#">Java Script</a></li>
+                          <li><a class="dropdown-item text-black" href="#">Python</a></li>
+                          <li><hr class="dropdown-divider text-black"></li>
+                          <li><a class="dropdown-item text-black" href="#">Топ статей</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item mt-1">
+                        <a class="nav-link disabled text-white" aria-disabled="true">FAQ</a>
+                      </li>
+                    </ul>
+                    <div class="container-form">
+        
+                    </div>
+                    <form class="d-flex form" role="search">
+                      <input class="form-control me-2 inp" type="search" placeholder="Найти статью" aria-label="Search">
+                  
+                    </form>
+                    <div class="them-container">
+                      <img src="assets//sun_112421.png" alt="" class="them">
+                  </div>
+                    <div class="ava-container">
+                        <img src="https://avatars.dzeninfra.ru/get-zen_doc/1578906/pub_5cdbdfbd635d0800b447ae37_5cdbdfc2e1368c00b3e27ce3/scale_1200" alt="" class="ava">
+                    </div>
+                  </div>
+                  </div>
+                </div>
+                </nav>
+            </header>
+    <main>
+        <div class="container">
+            <div class="row pt-3">
+                <div class="col-12">
+                    <h3>Новый вопрос</h3>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-12"><h4>Суть вопроса</h4></div>
+            </div>
+            <div class="row" style="display: flex; gap: 40px;">
+                <div class="col-12">
+                    <h5 style="color: gray; font-weight: 400;">Сформулируйте вопрос так, чтобы сразу было понятно, о чём речь.</h5>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="input-group mb-3">
+                        <textarea class="text-area text-box multi-line" data-val="true" data-val-length="Maximum = 2045 characters" data-val-length-max="10000" id="info" name="info" cols="200" rows="3" style="border-color: #D3D3D3; border-radius: 5px;"></textarea>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12"><h4>Детали вопроса</h4></div>
+            </div>
+            <div class="row" style="display: flex; gap: 40px;">
+                <div class="col-12">
+                    <h5 style="color: gray; font-weight: 400;">Опишите в подробностях свой вопрос, чтобы получить более точный ответ.</h5>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="input-group mb-3">
+                        <textarea class="text-area text-box multi-line" data-val="true" data-val-length="Maximum = 2045 characters" data-val-length-max="10000" id="info" name="info" cols="200" rows="3" style="border-color: #D3D3D3; border-radius: 5px;"></textarea>
+                    </div>
+                </div>
+            </div>
+            <div class="row pt-5">
+                <div class="col-6">
+                    <h4>Сложность вопроса</h4>
+                </div>
+                <div class="col-6">
+                    <h4>Теги вопроса</h4>
+                </div>
+            </div>
+            <div class="row pt-5">
+                <div class="col-6">
+                    <select class="form-select">
+                        <option selected>Простой</option>
+                        <option value="1">Средний</option>
+                        <option value="2">Сложный</option>
+                    </select>
+                </div>
+                <div class="col-6">
+                    <select class="form-select" style="background-image: url(assets/python.jpg);">
+                        <option selected>Python</option>
+                        <option value="1">HTML5</option>
+                        <option value="2">Java</option>
+                        <option value="3">PHP</option>
+                        <option value="4">JavaScript</option>
+                        <option value="5">C++</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row pt-5">
+                <div class="col-6">
+                    <button id="save"><b>Опубликовать</b></button>
+                </div>
+                <div class="col-6">
+                    <button id="preview"><b>Предпосмотр</b></button>
+                </div>
+            </div>
+            </div>
+    </main>
+</body>
+
+</html>

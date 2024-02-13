@@ -1,0 +1,30 @@
+#download, #save{
+    background-color: white;
+    color: #7ac97a;
+    border-color: #90EE90;
+    border-radius: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+    text-align: center;
+}
+#delete, #add{
+    background-color: white;
+    border: none;
+    color: gray;
+    
+}
+#preview{
+    background-color: white;
+    color: #D3D3D3;
+    border-color: #D3D3D3;
+    border-radius: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+    text-align: center;
+}
+/*
+body{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+*/
